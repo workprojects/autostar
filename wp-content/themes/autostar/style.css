@@ -1,0 +1,286 @@
+/*   
+Theme Name: autostar
+Theme URI: http://autostar.com/
+Description: Wordpress Theme
+Author: Yaroslav Kuzmenko
+Version: 1.0
+*/
+
+/******************* CSS Document *******************/
+body {
+	background-color: #FFF;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	text-align: left;
+    margin: 0px;
+	padding: 0px;
+}
+img, fieldset {
+	border: none;
+}
+a {
+    color: #2274AC;
+    text-decoration: none;
+    cursor: pointer;
+}
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+.page-holder {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+.page-area {
+    width: 962px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.clear {
+    clear: both;
+}
+/********************* HEADER **********************/
+.header {
+    overflow: hidden;
+    width: 962px;
+    background: url("images/content_shadow.png") left bottom repeat-x;
+    padding-bottom: 13px;
+}
+.logo-volkswagen {
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: url(images/logo_volk.png) left top no-repeat;
+    margin: 35px 36px 0;
+}
+.logo-site {
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.logo-site a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(images/logo_star.png) left top no-repeat;
+    float: left;
+}
+.logo-site span {
+    color: #E31E24;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/*********************** HEADER MENUS **********************/
+.top-right-menu,
+.main-menu {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+.top-right-menu {
+    float: right;
+    margin: 20px 0 0;
+}
+.main-menu {
+    float: left;
+    margin: 10px 0 0 118px;
+}
+.top-right-menu .menu-item,
+.main-menu .menu-item {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    margin-left: 9px;
+    background-image: url(images/arrows_sprite.png);
+    background-repeat: no-repeat;
+}
+.top-right-menu .menu-item {
+    font-size: 10px;
+    background-position: -339px -160px;
+}
+.main-menu .menu-item {
+    font-family: Trebuchet MS;
+    background-position: -339px -158px;
+}
+.top-right-menu .menu-item:first-child,
+.main-menu .menu-item:first-child {
+    padding-left: 0;
+    margin-left: 0;
+    background-image: none;
+}
+.top-right-menu .menu-item a {
+    color: #8994A0;
+}
+.top-right-menu .menu-item a:hover {
+    color: #2274AC;
+}
+.main-menu .menu-item a {
+    color: #33434C;
+}
+.main-menu .menu-item a:hover {
+    color: #2274AC;
+}
+.main-menu .sub-menu {
+    display: none;
+}
+.top-right-buttons {
+    float: right;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.top-right-buttons a {
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    height: 24px;
+    background-position: 0 0;
+}
+.top-right-buttons a:hover {
+    background-position: 0px 24px;
+}
+.top-right-buttons .brochure {
+    background-image: url("images/download_brochure.png");
+    margin-right: 5px;
+}
+.top-right-buttons .configurator {
+    background-image: url("images/configurator.png");
+}
+/********************* END HEADER **********************/
+
+
+/********************* MAIN PAGE **********************/
+.main {
+}
+.content-area {
+    border: 1px solid #CFD7D9;
+    overflow: hidden;
+    border-top: none;
+}
+.content-area .start-image {
+    min-width: 960px;
+    min-height: 450px;
+    position: relative;
+}
+.main-banner {
+    display: block;
+    width: 960px ;
+    height: 485px;
+    background: url("images/home-banner.jpg") left top no-repeat;
+}
+.teasers {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+.teasers_container {
+    margin: auto;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.teasers a, .teasers object {
+    border: 4px solid white;
+    height: 80px;
+    width: 158px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    color: white;
+    margin-top: 24px;
+    box-shadow: #666 0 1px 3px;
+}
+
+/********************* END MAIN PAGE **********************/
+
+
+/********************* SIDEBAR **********************/
+#sidebar {
+}
+/********************* END SIDEBAR **********************/
+
+
+/********************* FOOTER **********************/
+.footer {
+    margin-top: 12px;
+}
+.footer .avt_footer_left {
+    float: left;
+    width: 350px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.avt_footer_left #avt_footer_left_next{
+    display: none;
+}
+.footer .avt_footer_right_div {
+    float: right;
+    max-width: 590px;
+}
+.avt_footer_right {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.avt_footer_right li,
+.avt_footer_left li  {
+    font-size: .909em;
+    color: #8994A0;
+}
+.footer .avt_footer_right li {
+    float: left;
+    padding-left: 10px;
+    margin-left: 9px;
+    background-image: url(images/arrows_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -339px -160px;
+    color: #8994A0;
+    font-size: 10px;
+}
+.footer .avt_footer_right li:first-child,
+.footer .avt_footer_right li.avt_first{
+    background-image:none;
+}
+.footer .avt_footer_right li a {
+    color: #8994A0;
+    text-decoration: none;
+}
+.footer .avt_footer_right li a:hover{
+    color: #2274AC;
+}
+.footer .footer-search{
+    float: right;
+    margin-top: 12px;
+    position: relative;
+}
+.footer .search_input{
+    border:1px solid #cfd7d9;
+    height:22px;
+    line-height:22px;
+    margin-bottom:10px;
+    color:#8994a0;
+    font-size:10px;
+    padding-left:10px;
+    width:190px;
+}
+.footer .footer-search .submit {
+    background: url('images/search.png') no-repeat;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    cursor: pointer;
+}
+/********************* END FOOTER **********************/

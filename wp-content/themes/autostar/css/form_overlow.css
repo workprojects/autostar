@@ -1,0 +1,76 @@
+/* Overlay */
+#videoform-overlay , #form-overlay {background-color: #777777; height:100%; width:100%; position: fixed; left: 0px; top: 0px; z-index: 1001; opacity: 0.8; }
+
+/* Container */
+#videoform-container , #form-container, #image-container  {font: 11px; text-align:left; z-index: 1002;position: fixed;top: 50%;left: 50%;
+-moz-box-shadow: 0px 0px 30px 5px #3b3b3c;-webkit-box-shadow: 0px 0px 30px 5px #3b3b3c;box-shadow: 0px 0px 30px 5px #3b3b3c;}
+#videoform-container {margin-left: -297px;margin-top: -165px;width: 594px;height: 338px;}
+
+#videoform-container .videoform-content, #form-container .form-content {background-color:white; color:#000; }
+#videoform-container .videoform-content{height:338px; padding: 1px 10px 0px 10px;}
+
+#videoform-container h1 {color:black; font-size:14px; line-height:20px; margin: 9px 3px 0 3px; text-align:left; font-weight:bold; width:70%; overflow:hidden;}
+#videoform-container .videoform-video {background-color:#4d4d4d; height:270px;display:block;width:100%; margin:20px 0px 25px 0px; z-index:8000;}
+
+#image-container {margin-left: -437px;margin-top: -267px;width: 878px;height: 353px;}
+#image-container .image-content, #form-container .form-content {background-color:white; color:#000; }
+#image-container .image-content{height:353px; padding: 1px 10px 0px 10px;}
+
+#image-container h1 {color:black; font-size:14px; line-height:20px; margin: 9px 3px 0 3px; text-align:left; font-weight:bold; width:70%; overflow:hidden;}
+#image-container .image-picture {height:270px; width: 570px; display:block; margin-left: 12px; z-index:8000; float: left;}
+#image-container .image-text {background: #eaeeed;height:270px; z-index:8000; float: right; width: 282px;}
+
+a.modal-close,
+a.modal-close:link,
+a.modal-close:active,
+a.modal-close:visited {display: block;
+width: 20px;
+height: 20px;
+background-image: url(../images/arrows_sprite.png);
+background-repeat: no-repeat;
+background-color: transparent;
+background-position: -330px -629px;
+text-indent: -999em;
+text-decoration: none;position: absolute;
+top: 10px;
+right: 10px;}
+a.modal-close:hover {background-position: -61px -889px;}
+
+ #form-container {background-color:white; box-shadow: #000002 0 1px 10px; -moz-box-shadow: #000002 0 1px 10px; -webkit-box-shadow: #000002 0 1px 10px;}
+#form-container a.modal-close{top:13px; right:13px; z-index: 5000;}
+ #form-container .form-content { line-height:16px;padding:1px 0px 0px 0px;}
+  #form-container .form-rss , #form-container .form-sto { line-height:14px;padding:1px 0px 0px 0px;}
+#form-container h1 {color:black; font-size:14px; line-height:20px; margin: 20px 0px 15px 0px; text-align:center; font-weight:bold; overflow:hidden;}
+#form-container div.form-text {margin-left: 20px; margin-right: 20px;}
+#form-container .form-sto h1{margin-bottom:10px;}
+#form-container .form{width:170px; margin:0px auto;}
+#form-container .form-sto .form{width:470px;}
+#form-container .form input, #form-container .form textarea  {margin-left:0px;font-size:11px; line-height:17px; border:1px solid #e6e6e6;-webkit-border-radius: 2px;
+-moz-border-radius: 2px;border-radius: 2px;}
+
+#form-container .form  .selectBox-dropdown {border:1px solid #e6e6e6;-webkit-border-radius: 2px;
+-moz-border-radius: 2px;border-radius: 2px;min-width: 115px;}
+#form-container .form .selectBox-dropdown .selectBox-arrow {
+	background: url(../images/select-arrow-overflow.gif)  top right no-repeat;	
+}
+.sumbmit {margin:20px auto 0px auto;width:96px; }
+#form-container .form input.send-button{background:url(../images/send-button.png) no-repeat;width:96px; height:24px;border:none;line-height:20px;cursor:pointer;text-indent:-999px;}
+#form-container .form input.send-button:hover{background:url(../images/send-button-active.png) no-repeat;}
+
+#form-container .form input.rss-button{background:url(../images/rss-button.png) no-repeat;width:96px; height:24px;border:none;line-height:20px;cursor:pointer;text-indent:-999px;}
+#form-container .form input.rss-button:hover{background:url(../images/rss-button-active.png) no-repeat;}
+
+#form-container .form input[type="checkbox"] {margin:1px 0px 0px 0px;}
+#form-container .form label{margin-left:3px;}
+
+#form-container #error {text-align: center; margin-top: 13px; padding-left: 20px; padding-right: 20px;}
+#form-container .form {padding-bottom: 20px;}
+
+#form-container .form-sto table {width:100%;}
+#form-container .form-sto table td.leftcol{width:235px;}
+#form-container .form-sto .textarea {width:463px; height:55px;}
+.withleftborder{border-left:1px solid #cfd7d9; padding-left:16px;}
+
+#form-container .form-rss h1.form-title {width: 330px;}
+
+form input, form a.selectBox {margin-bottom: 10px;}
